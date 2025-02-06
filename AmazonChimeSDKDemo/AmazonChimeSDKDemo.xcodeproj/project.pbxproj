@@ -92,6 +92,10 @@
 		77BB980531BBDCFE72BF62B6 /* Pods_AmazonChimeSDKDemoBroadcastPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBF914BC0C979614F44B032 /* Pods_AmazonChimeSDKDemoBroadcastPods.framework */; };
 		7C42A00629A4522A00B25E50 /* AmazonChimeSDKMedia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C42A00529A4522900B25E50 /* AmazonChimeSDKMedia.xcframework */; };
 		7C42A00729A4522A00B25E50 /* AmazonChimeSDKMedia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C42A00529A4522900B25E50 /* AmazonChimeSDKMedia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E39B07F2D53636E001E3296 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E39B07E2D53636E001E3296 /* music.mp3 */; };
+		8E39B0802D53636E001E3296 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E39B07E2D53636E001E3296 /* music.mp3 */; };
+		8E39B0812D53636E001E3296 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E39B07E2D53636E001E3296 /* music.mp3 */; };
+		8E39B0822D53636E001E3296 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E39B07E2D53636E001E3296 /* music.mp3 */; };
 		ADE3CFCA27050CD800DAC586 /* LiveTranscriptionOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE3CFC927050CD800DAC586 /* LiveTranscriptionOptionsViewController.swift */; };
 		B4FCD85224B9330A00064C9E /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCD85124B9330A00064C9E /* ChatMessageCell.swift */; };
 		B4FCD85524B9364900064C9E /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCD85424B9364900064C9E /* ChatModel.swift */; };
@@ -325,6 +329,7 @@
 		71BEE26029F8D5B0002C6BBA /* AmazonChimeSDKDemoBroadcastSPM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AmazonChimeSDKDemoBroadcastSPM-Info.plist"; path = "/Users/dingyshe/workspace/SPM/Workaround/amazon-chime-sdk-ios/AmazonChimeSDKDemo/AmazonChimeSDKDemoBroadcastSPM-Info.plist"; sourceTree = "<absolute>"; };
 		7C42A00529A4522900B25E50 /* AmazonChimeSDKMedia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmazonChimeSDKMedia.xcframework; path = ../AmazonChimeSDK/AmazonChimeSDKMedia.xcframework; sourceTree = "<group>"; };
 		7FBF914BC0C979614F44B032 /* Pods_AmazonChimeSDKDemoBroadcastPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonChimeSDKDemoBroadcastPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E39B07E2D53636E001E3296 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		AC1927CB881BAA9BE365CBF4 /* Pods-AmazonChimeSDKDemoPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonChimeSDKDemoPods.debug.xcconfig"; path = "Target Support Files/Pods-AmazonChimeSDKDemoPods/Pods-AmazonChimeSDKDemoPods.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE3CFC927050CD800DAC586 /* LiveTranscriptionOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTranscriptionOptionsViewController.swift; sourceTree = "<group>"; };
 		B4FCD85124B9330A00064C9E /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; usesTabs = 0; };
@@ -494,6 +499,7 @@
 		5A1582B823C40C9B0099F8FA /* AmazonChimeSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8E39B07E2D53636E001E3296 /* music.mp3 */,
 				D89046E429834C5900373566 /* toast */,
 				C4A690B1255E08AE00F28BC2 /* AmazonChimeSDKDemoDebug.entitlements */,
 				C4B0AC9D258A7C6D00F6F13A /* AmazonChimeSDKDemoRelease.entitlements */,
@@ -850,6 +856,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E39B0812D53636E001E3296 /* music.mp3 in Resources */,
 				5A1582C323C40C9D0099F8FA /* Assets.xcassets in Resources */,
 				5A1582C623C40C9D0099F8FA /* LaunchScreen.storyboard in Resources */,
 				5A1582C123C40C9B0099F8FA /* Main.storyboard in Resources */,
@@ -860,6 +867,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E39B0822D53636E001E3296 /* music.mp3 in Resources */,
 				71BEE1F229F8C17D002C6BBA /* Assets.xcassets in Resources */,
 				71BEE1F329F8C17D002C6BBA /* LaunchScreen.storyboard in Resources */,
 				71BEE1F429F8C17D002C6BBA /* Main.storyboard in Resources */,
@@ -891,6 +899,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E39B07F2D53636E001E3296 /* music.mp3 in Resources */,
 				EDA766B127E2B57E006B3C48 /* Assets.xcassets in Resources */,
 				EDA766B227E2B57E006B3C48 /* LaunchScreen.storyboard in Resources */,
 				EDA766B327E2B57E006B3C48 /* Main.storyboard in Resources */,
@@ -901,6 +910,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E39B0802D53636E001E3296 /* music.mp3 in Resources */,
 				F8AC962E2408840E0072EB04 /* Assets.xcassets in Resources */,
 				F8AC96312408840E0072EB04 /* LaunchScreen.storyboard in Resources */,
 				F8AC962C2408840D0072EB04 /* Main.storyboard in Resources */,

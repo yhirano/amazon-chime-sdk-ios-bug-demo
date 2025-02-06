@@ -14,6 +14,10 @@ import Foundation
 import ReplayKit
 import UIKit
 
+struct Keep {
+    static var audioPlayer: AVAudioPlayer?
+}
+
 class MeetingViewController: UIViewController {
     // Controls
     @IBOutlet var controlView: UIView!
@@ -81,6 +85,17 @@ class MeetingViewController: UIViewController {
         setupUI()
 
         meetingModel.startMeeting()
+
+        // Play background music.
+        //
+        // Bug:
+        // The music is supposed to continue playing until the app is closed,
+        // but it stops when the meeting ends.
+        if Keep.audioPlayer == nil {
+            Keep.audioPlayer = try! .init(contentsOf: Bundle.main.url(forResource: "music", withExtension: "mp3")!)
+            Keep.audioPlayer?.numberOfLoops = -1 // infinite loop
+            Keep.audioPlayer?.play()
+        }
     }
 
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
